@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements listChatFragment.
         TabLayout tabs = (TabLayout) findViewById(R.id.tabLayout);
         tabs.setupWithViewPager(vp);
         getSupportActionBar().setTitle("WhatsApp");
+
     }
 
 
